@@ -1,0 +1,63 @@
+body {
+    background-color: #1f2134;
+    color: white;
+    margin-right: auto;
+    font-family: Arial;
+    }
+
+h1,
+h2 {
+    font-variant: small-caps;
+    text-align: center;
+    }
+
+#photo-list{
+  width: 50%:
+  display: inline-block:
+  float: left:
+  text-align: left;
+}
+
+ #photo-display {
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.photo-list-item {
+   border: 1px solid #ccc;
+   padding: 8px;
+   border-radius: 9px;
+   margin-bottom: 10px;
+}
+
+.photo-list-item:hover {
+   background-color: navy;
+   cursor: pointer;
+   }
+
+
+p {
+  margin: 0;
+}
+
+.photo-list-item .city-name {
+  font-size: 1.3rem
+   }
+
+#allphotos {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+
+#rightside {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+}
